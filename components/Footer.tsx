@@ -26,7 +26,9 @@ export const Footer: React.FC<{
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>2022 © {config.author}. <a href="https://jotzilla.net/DO/">Get started on DigitalOcean.</a></div>
+      <div className={styles.copyright}>
+        { (new Date).getFullYear() } © <a href="https://andre23arruda.github.io/home/">{config.author}.</a>
+      </div>
 
       {hasMounted ? (
         <div className={styles.settings}>
@@ -77,6 +79,6 @@ export const Footer: React.FC<{
           </a>
         )}
       </div>
-    </footer>    
+    </footer>
   )
 }
