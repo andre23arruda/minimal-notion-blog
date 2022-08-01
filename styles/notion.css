@@ -51,9 +51,9 @@
   padding: .15em 2px;
 }
 
-.notion-header .breadcrumb.active {
+/* .notion-header .breadcrumb.active {
   text-transform: lowercase;
-}
+} */
 .notion-header .searchIcon {
   text-transform: lowercase;
 }
