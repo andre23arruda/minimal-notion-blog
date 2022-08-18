@@ -54,13 +54,14 @@
 /* .notion-header .breadcrumb.active {
   text-transform: lowercase;
 } */
+
 .notion-header .searchIcon {
   text-transform: lowercase;
 }
 
-.notion-property {
+/* .notion-property {
   text-transform: lowercase;
-}
+} */
 
 .notion-property.notion-property-date::before {
   content: 'Updated on';
@@ -132,7 +133,7 @@
   font-size: 1.5em;
   font-weight: 600;
   white-space: unset;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
 }
 
 .notion-collection-header-title {
